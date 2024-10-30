@@ -1,0 +1,168 @@
+/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'IconizeFontAwesome5Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fontawesome-5-free/fa-regular-400.eot");
+  src: url("../fonts/fontawesome-5-free/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-5-free/fa-regular-400.woff2") format("woff2"), url("../fonts/fontawesome-5-free/fa-regular-400.woff") format("woff"), url("../fonts/fontawesome-5-free/fa-regular-400.ttf") format("truetype"), url("../fonts/fontawesome-5-free/fa-regular-400.svg#fontawesome") format("svg"); }
+
+.font-awesome-regular {
+  font-family: 'IconizeFontAwesome5Regular';
+  font-weight: 400;
+}
+
+.font-awesome-regular.glyph-address-book:before { content: "\f2b9"; }
+.font-awesome-regular.glyph-address-card:before { content: "\f2bb"; }
+.font-awesome-regular.glyph-angry:before { content: "\f556"; }
+.font-awesome-regular.glyph-arrow-alt-circle-down:before { content: "\f358"; }
+.font-awesome-regular.glyph-arrow-alt-circle-left:before { content: "\f359"; }
+.font-awesome-regular.glyph-arrow-alt-circle-right:before { content: "\f35a"; }
+.font-awesome-regular.glyph-arrow-alt-circle-up:before { content: "\f35b"; }
+.font-awesome-regular.glyph-bell:before { content: "\f0f3"; }
+.font-awesome-regular.glyph-bell-slash:before { content: "\f1f6"; }
+.font-awesome-regular.glyph-bookmark:before { content: "\f02e"; }
+.font-awesome-regular.glyph-building:before { content: "\f1ad"; }
+.font-awesome-regular.glyph-calendar:before { content: "\f133"; }
+.font-awesome-regular.glyph-calendar-alt:before { content: "\f073"; }
+.font-awesome-regular.glyph-calendar-check:before { content: "\f274"; }
+.font-awesome-regular.glyph-calendar-minus:before { content: "\f272"; }
+.font-awesome-regular.glyph-calendar-plus:before { content: "\f271"; }
+.font-awesome-regular.glyph-calendar-times:before { content: "\f273"; }
+.font-awesome-regular.glyph-caret-square-down:before { content: "\f150"; }
+.font-awesome-regular.glyph-caret-square-left:before { content: "\f191"; }
+.font-awesome-regular.glyph-caret-square-right:before { content: "\f152"; }
+.font-awesome-regular.glyph-caret-square-up:before { content: "\f151"; }
+.font-awesome-regular.glyph-chart-bar:before { content: "\f080"; }
+.font-awesome-regular.glyph-check-circle:before { content: "\f058"; }
+.font-awesome-regular.glyph-check-square:before { content: "\f14a"; }
+.font-awesome-regular.glyph-circle:before { content: "\f111"; }
+.font-awesome-regular.glyph-clipboard:before { content: "\f328"; }
+.font-awesome-regular.glyph-clock:before { content: "\f017"; }
+.font-awesome-regular.glyph-clone:before { content: "\f24d"; }
+.font-awesome-regular.glyph-closed-captioning:before { content: "\f20a"; }
+.font-awesome-regular.glyph-comment:before { content: "\f075"; }
+.font-awesome-regular.glyph-comment-alt:before { content: "\f27a"; }
+.font-awesome-regular.glyph-comment-dots:before { content: "\f4ad"; }
+.font-awesome-regular.glyph-comments:before { content: "\f086"; }
+.font-awesome-regular.glyph-compass:before { content: "\f14e"; }
+.font-awesome-regular.glyph-copy:before { content: "\f0c5"; }
+.font-awesome-regular.glyph-copyright:before { content: "\f1f9"; }
+.font-awesome-regular.glyph-credit-card:before { content: "\f09d"; }
+.font-awesome-regular.glyph-dizzy:before { content: "\f567"; }
+.font-awesome-regular.glyph-dot-circle:before { content: "\f192"; }
+.font-awesome-regular.glyph-edit:before { content: "\f044"; }
+.font-awesome-regular.glyph-envelope:before { content: "\f0e0"; }
+.font-awesome-regular.glyph-envelope-open:before { content: "\f2b6"; }
+.font-awesome-regular.glyph-eye:before { content: "\f06e"; }
+.font-awesome-regular.glyph-eye-slash:before { content: "\f070"; }
+.font-awesome-regular.glyph-file:before { content: "\f15b"; }
+.font-awesome-regular.glyph-file-alt:before { content: "\f15c"; }
+.font-awesome-regular.glyph-file-archive:before { content: "\f1c6"; }
+.font-awesome-regular.glyph-file-audio:before { content: "\f1c7"; }
+.font-awesome-regular.glyph-file-code:before { content: "\f1c9"; }
+.font-awesome-regular.glyph-file-excel:before { content: "\f1c3"; }
+.font-awesome-regular.glyph-file-image:before { content: "\f1c5"; }
+.font-awesome-regular.glyph-file-pdf:before { content: "\f1c1"; }
+.font-awesome-regular.glyph-file-powerpoint:before { content: "\f1c4"; }
+.font-awesome-regular.glyph-file-video:before { content: "\f1c8"; }
+.font-awesome-regular.glyph-file-word:before { content: "\f1c2"; }
+.font-awesome-regular.glyph-flag:before { content: "\f024"; }
+.font-awesome-regular.glyph-flushed:before { content: "\f579"; }
+.font-awesome-regular.glyph-folder:before { content: "\f07b"; }
+.font-awesome-regular.glyph-folder-open:before { content: "\f07c"; }
+.font-awesome-regular.glyph-frown:before { content: "\f119"; }
+.font-awesome-regular.glyph-frown-open:before { content: "\f57a"; }
+.font-awesome-regular.glyph-futbol:before { content: "\f1e3"; }
+.font-awesome-regular.glyph-gem:before { content: "\f3a5"; }
+.font-awesome-regular.glyph-grimace:before { content: "\f57f"; }
+.font-awesome-regular.glyph-grin:before { content: "\f580"; }
+.font-awesome-regular.glyph-grin-alt:before { content: "\f581"; }
+.font-awesome-regular.glyph-grin-beam:before { content: "\f582"; }
+.font-awesome-regular.glyph-grin-beam-sweat:before { content: "\f583"; }
+.font-awesome-regular.glyph-grin-hearts:before { content: "\f584"; }
+.font-awesome-regular.glyph-grin-squint:before { content: "\f585"; }
+.font-awesome-regular.glyph-grin-squint-tears:before { content: "\f586"; }
+.font-awesome-regular.glyph-grin-stars:before { content: "\f587"; }
+.font-awesome-regular.glyph-grin-tears:before { content: "\f588"; }
+.font-awesome-regular.glyph-grin-tongue:before { content: "\f589"; }
+.font-awesome-regular.glyph-grin-tongue-squint:before { content: "\f58a"; }
+.font-awesome-regular.glyph-grin-tongue-wink:before { content: "\f58b"; }
+.font-awesome-regular.glyph-grin-wink:before { content: "\f58c"; }
+.font-awesome-regular.glyph-hand-lizard:before { content: "\f258"; }
+.font-awesome-regular.glyph-hand-paper:before { content: "\f256"; }
+.font-awesome-regular.glyph-hand-peace:before { content: "\f25b"; }
+.font-awesome-regular.glyph-hand-point-down:before { content: "\f0a7"; }
+.font-awesome-regular.glyph-hand-point-left:before { content: "\f0a5"; }
+.font-awesome-regular.glyph-hand-point-right:before { content: "\f0a4"; }
+.font-awesome-regular.glyph-hand-point-up:before { content: "\f0a6"; }
+.font-awesome-regular.glyph-hand-pointer:before { content: "\f25a"; }
+.font-awesome-regular.glyph-hand-rock:before { content: "\f255"; }
+.font-awesome-regular.glyph-hand-scissors:before { content: "\f257"; }
+.font-awesome-regular.glyph-hand-spock:before { content: "\f259"; }
+.font-awesome-regular.glyph-handshake:before { content: "\f2b5"; }
+.font-awesome-regular.glyph-hdd:before { content: "\f0a0"; }
+.font-awesome-regular.glyph-heart:before { content: "\f004"; }
+.font-awesome-regular.glyph-hospital:before { content: "\f0f8"; }
+.font-awesome-regular.glyph-hourglass:before { content: "\f254"; }
+.font-awesome-regular.glyph-id-badge:before { content: "\f2c1"; }
+.font-awesome-regular.glyph-id-card:before { content: "\f2c2"; }
+.font-awesome-regular.glyph-image:before { content: "\f03e"; }
+.font-awesome-regular.glyph-images:before { content: "\f302"; }
+.font-awesome-regular.glyph-keyboard:before { content: "\f11c"; }
+.font-awesome-regular.glyph-kiss:before { content: "\f596"; }
+.font-awesome-regular.glyph-kiss-beam:before { content: "\f597"; }
+.font-awesome-regular.glyph-kiss-wink-heart:before { content: "\f598"; }
+.font-awesome-regular.glyph-laugh:before { content: "\f599"; }
+.font-awesome-regular.glyph-laugh-beam:before { content: "\f59a"; }
+.font-awesome-regular.glyph-laugh-squint:before { content: "\f59b"; }
+.font-awesome-regular.glyph-laugh-wink:before { content: "\f59c"; }
+.font-awesome-regular.glyph-lemon:before { content: "\f094"; }
+.font-awesome-regular.glyph-life-ring:before { content: "\f1cd"; }
+.font-awesome-regular.glyph-lightbulb:before { content: "\f0eb"; }
+.font-awesome-regular.glyph-list-alt:before { content: "\f022"; }
+.font-awesome-regular.glyph-map:before { content: "\f279"; }
+.font-awesome-regular.glyph-meh:before { content: "\f11a"; }
+.font-awesome-regular.glyph-meh-blank:before { content: "\f5a4"; }
+.font-awesome-regular.glyph-meh-rolling-eyes:before { content: "\f5a5"; }
+.font-awesome-regular.glyph-minus-square:before { content: "\f146"; }
+.font-awesome-regular.glyph-money-bill-alt:before { content: "\f3d1"; }
+.font-awesome-regular.glyph-moon:before { content: "\f186"; }
+.font-awesome-regular.glyph-newspaper:before { content: "\f1ea"; }
+.font-awesome-regular.glyph-object-group:before { content: "\f247"; }
+.font-awesome-regular.glyph-object-ungroup:before { content: "\f248"; }
+.font-awesome-regular.glyph-paper-plane:before { content: "\f1d8"; }
+.font-awesome-regular.glyph-pause-circle:before { content: "\f28b"; }
+.font-awesome-regular.glyph-play-circle:before { content: "\f144"; }
+.font-awesome-regular.glyph-plus-square:before { content: "\f0fe"; }
+.font-awesome-regular.glyph-question-circle:before { content: "\f059"; }
+.font-awesome-regular.glyph-registered:before { content: "\f25d"; }
+.font-awesome-regular.glyph-sad-cry:before { content: "\f5b3"; }
+.font-awesome-regular.glyph-sad-tear:before { content: "\f5b4"; }
+.font-awesome-regular.glyph-save:before { content: "\f0c7"; }
+.font-awesome-regular.glyph-share-square:before { content: "\f14d"; }
+.font-awesome-regular.glyph-smile:before { content: "\f118"; }
+.font-awesome-regular.glyph-smile-beam:before { content: "\f5b8"; }
+.font-awesome-regular.glyph-smile-wink:before { content: "\f4da"; }
+.font-awesome-regular.glyph-snowflake:before { content: "\f2dc"; }
+.font-awesome-regular.glyph-square:before { content: "\f0c8"; }
+.font-awesome-regular.glyph-star:before { content: "\f005"; }
+.font-awesome-regular.glyph-star-half:before { content: "\f089"; }
+.font-awesome-regular.glyph-sticky-note:before { content: "\f249"; }
+.font-awesome-regular.glyph-stop-circle:before { content: "\f28d"; }
+.font-awesome-regular.glyph-sun:before { content: "\f185"; }
+.font-awesome-regular.glyph-surprise:before { content: "\f5c2"; }
+.font-awesome-regular.glyph-thumbs-down:before { content: "\f165"; }
+.font-awesome-regular.glyph-thumbs-up:before { content: "\f164"; }
+.font-awesome-regular.glyph-times-circle:before { content: "\f057"; }
+.font-awesome-regular.glyph-tired:before { content: "\f5c8"; }
+.font-awesome-regular.glyph-trash-alt:before { content: "\f2ed"; }
+.font-awesome-regular.glyph-user:before { content: "\f007"; }
+.font-awesome-regular.glyph-user-circle:before { content: "\f2bd"; }
+.font-awesome-regular.glyph-window-close:before { content: "\f410"; }
+.font-awesome-regular.glyph-window-maximize:before { content: "\f2d0"; }
+.font-awesome-regular.glyph-window-minimize:before { content: "\f2d1"; }
+.font-awesome-regular.glyph-window-restore:before { content: "\f2d2"; }

@@ -1,0 +1,361 @@
+form.iconize-modal {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.iconize-modal .icons-list-controls {
+	padding-bottom: 15px;
+}
+.iconize-modal .icons-list-wrapper,
+.iconize-modal .icons-list-icon {
+	-webkit-transition: border .2s;
+	transition: border .2s;
+}
+.iconize-modal .icons-list-wrapper {
+	height: 258px;
+	overflow: auto;
+	border: 1px solid #DFDFDF;
+	opacity: 1;
+}
+.iconize-modal .icons-list {
+	float: left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.iconize-modal .icons-list-item {
+	float: left;
+	margin: 5px;
+}
+.preview-icon.button,
+.iconize-modal .icons-list-icon {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 2px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.iconize-modal .icons-list-icon,
+.iconize-modal ul.tagit li.tagit-choice {
+	border: 1px solid #DFDFDF;
+	background: #fafafa;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+}
+.iconize-modal .icons-list-icon {
+	margin: 1px;
+	cursor: pointer;
+}
+.iconize-modal .icons-list-wrapper:hover,
+.iconize-modal .icons-list-icon:hover,
+.iconize-modal .icons-list-icon:focus,
+.iconize-modal ul.tagit li.tagit-choice:hover {
+	outline: none;
+	border-color: #aaa;
+	background: #F9F9F9;
+}
+.preview-icon.button {
+	width: 20px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	min-height: 0;
+	min-width: 0;
+}
+.iconize-modal .icons-list-icon,
+.iconize-modal .icons-list-icon:hover,
+.iconize-modal .icons-list-icon:focus {
+	color:#666;
+}
+.iconize-modal .icons-list-icon {
+	width: 64px;
+	height: 64px;
+	font-size: 32px;
+	line-height: 64px;
+	border-width: 3px;
+}
+.iconize-modal .icons-list-icon.selected-icon {
+	border-color: #2a95c5;
+	background: #F9F9F9;
+}
+.iconize-modal .iconize-modal-option {
+	display: inline-block;
+	float:left;
+	width: 100%;
+	max-width: 395px;
+}
+.iconize-modal input.icon-custom-size {
+	vertical-align: middle;
+}
+.iconize-modal .iconize-modal-option.full-width {
+	max-width: 100%;
+}
+
+/* Action buttons */
+.iconize-modal .iconize-stack {
+	display: none;
+	margin-right: 5px;
+}
+.iconize-modal .iconize-update,
+.iconize-modal .name-label,
+.iconize-modal span.color-hover-checkbox {
+	float: right;
+	margin: 0;
+}
+.iconize-modal .iconize-cancel {
+	float: left;
+}
+.iconize-modal .iconize-remove {
+	margin-right: 10px;
+}
+.iconize-modal label.howto,
+.iconize-modal span.howto {
+	display: inline;
+}
+/* Icons lists loading overlay */
+.iconize-modal .loading-overlay * {
+	visibility: hidden;
+	opacity: 0;
+}
+.iconize-modal .loading-overlay,
+.iconize-modal .loading-overlay:hover {
+	background: transparent url('../../../../wp-includes/js/thickbox/loadingAnimation.gif') center center no-repeat;
+	overflow: hidden;
+}
+/* Autocomplete */
+.iconize-autocomplete.ui-autocomplete {
+	max-height: 150px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	z-index:300003;
+}
+.iconize-autocomplete.ui-autocomplete .ui-autocomplete-set {
+	font-weight: bold;
+	padding: .2em .4em;
+	margin: .8em 0 .2em;
+	line-height: 1.5;
+	pointer-events: none;
+}
+/* Tag-it Plugin used for custom classes input */
+.iconize-modal ul.tagit {
+	padding: 5px 0 0 5px;
+	overflow: auto;
+	margin: 0;
+	margin-left: inherit; /* usually we don't want the regular ul margins. */
+	margin-right: inherit;
+}
+.iconize-modal ul.tagit li {
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.iconize-modal ul.tagit li.tagit-choice {
+	position: relative;
+	line-height: inherit;
+}
+.iconize-modal input.tagit-hidden-field,
+.iconize-modal * .hidden{
+	display:none !important;
+}
+.iconize-modal ul.tagit li.tagit-choice-read-only {
+	padding: .2em .5em; 
+}
+.iconize-modal ul.tagit li.tagit-choice-editable {
+	padding: .2em 18px .2em .5em; 
+}
+.iconize-modal ul.tagit li.tagit-new {
+	padding: .25em 4px .25em 0;
+}
+.iconize-modal ul.tagit li.tagit-choice a.tagit-label {
+	cursor: pointer;
+	text-decoration: none;
+}
+.iconize-modal ul.tagit li.tagit-choice .tagit-close {
+	cursor: pointer;
+	position: absolute;
+	right: .4em;
+	top: 50%;
+	margin-top: -8px;
+	line-height: 17px;
+}
+/* used for some custom themes that don't need image icons */
+.iconize-modal ul.tagit li.tagit-choice .tagit-close .text-icon {
+	display: none;
+}
+.iconize-modal ul.tagit li.tagit-choice input {
+	display: block;
+	float: left;
+	margin: 2px 5px 2px 0;
+}
+.iconize-modal ul.tagit input[type="text"] {
+	-webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+	-moz-box-sizing: border-box; /* Firefox 1+ */
+	box-sizing: border-box; /* Chrome, IE 8+, Opera, Safari 5.1 */
+	-webkit-box-shadow: none; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	box-shadow: none; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: inherit;
+	background-color: inherit;
+	outline: none;
+}
+.iconize-modal ul.tagit {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dfdfdf;
+	background: inherit;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.iconize-modal ul.tagit li.tagit-choice .tagit-label:not(a) {
+	color: #666;
+}
+.iconize-modal ul.tagit li.tagit-choice a.tagit-close {
+	text-decoration: none;
+}
+.iconize-modal ul.tagit li.tagit-choice .ui-icon {
+	display: none;
+}
+.iconize-modal ul.tagit li.tagit-choice .tagit-close .text-icon {
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	color: #666;
+}
+.iconize-modal ul.tagit li.tagit-choice a.tagit-close:active,
+.iconize-modal ul.tagit li.tagit-choice a.tagit-close:focus {
+	outline: none;
+}
+.iconize-modal ul.tagit li.tagit-choice a.tagLabel:hover,
+.iconize-modal ul.tagit li.tagit-choice a.tagit-close .text-icon:hover {
+	color: #666;
+}
+.iconize-modal ul.tagit input[type="text"] {
+	background: none;
+}
+.iconize-modal ul.tagit.ui-widget {
+	font-size: 1.1em;
+}
+
+/* Fullscreen editor buttons */
+#wp-fullscreen-buttons #wp_fs_insert_icon span.mce_insert_icon,
+#wp-fullscreen-buttons #wp_fs_swap_icon_positions span.mce_swap_icon_positions,
+#wp-fullscreen-buttons #wp_fs_swap_icon_sizes span.mce_swap_icon_sizes,
+#wp-fullscreen-buttons #wp_fs_remove_icon span.mce_remove_icon {
+	background-position: 0px 0px;
+}
+#wp-fullscreen-buttons #wp_fs_insert_icon span.mce_insert_icon {
+	background-image: url('../tinymce/images/flag.png');
+}
+#wp-fullscreen-buttons #wp_fs_swap_icon_positions span.mce_swap_icon_positions {
+	background-image: url('../tinymce/images/swappos.png');
+}
+#wp-fullscreen-buttons #wp_fs_swap_icon_sizes span.mce_swap_icon_sizes {
+	background-image: url('../tinymce/images/swapsizes.png');
+}
+#wp-fullscreen-buttons #wp_fs_remove_icon span.mce_remove_icon {
+	background-image: url('../tinymce/images/unflag.png');
+}
+
+/* Bootstrap modal */
+.iconize-modal .wpbs-modal-header {
+	background: #222;
+	color: #eee;
+}
+.iconize-modal .wpbs-modal-close,
+.iconize-modal .wpbs-modal-close:hover,
+.iconize-modal .wpbs-modal-close:focus {
+	color: #eee;
+	text-shadow: none;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.iconize-modal .wpbs-modal-footer {
+	margin-top: 0;
+	text-align: left;
+	border-top: 1px solid #DFDFDF;
+}
+
+/* Menu options */
+p.field-menu-item-icon,
+p.field-menu-item-icon-position {
+	float: left;
+	margin-top: 1.5em;
+}
+
+/* RTL Support */
+.rtl .iconize-modal .icons-list,
+.rtl .iconize-modal .icons-list-item,
+.rtl .iconize-modal .iconize-modal-option,
+.rtl .iconize-modal .iconize-cancel,
+.rtl .iconize-modal ul.tagit li,
+.rtl .iconize-modal ul.tagit li.tagit-choice input {
+	float:right;
+}
+.rtl .iconize-modal .iconize-update,
+.rtl .iconize-modal .name-label,
+.rtl .iconize-modal span.color-hover-checkbox {
+	float:left;
+}
+.rtl .iconize-modal .iconize-stack,
+.rtl .iconize-modal .iconize-remove,
+.rtl .iconize-modal label.howto,.rtl .iconize-modal span.howto {
+	margin-right:auto;
+}
+.rtl .iconize-modal .iconize-stack,
+.rtl .iconize-modal label.howto,
+.rtl .iconize-modal span.howto,
+.rtl .iconize-modal ul.tagit li,
+.rtl .iconize-modal ul.tagit li.tagit-choice input {
+	margin-left: 5px;
+}
+.rtl .iconize-modal ul.tagit li,
+.rtl .iconize-modal ul.tagit li.tagit-choice input  {
+	margin-right: 0;
+}
+.rtl .iconize-modal .iconize-remove {
+	margin-left: 10px;
+}
+.rtl .iconize-modal ul.tagit {
+	padding-left: 0;
+	padding-right: 5px;
+}
+.rtl .iconize-modal ul.tagit li.tagit-choice-editable {
+	padding-left: 18px;
+	padding-right: .5em;
+}
+.rtl .iconize-modal ul.tagit li.tagit-new {
+	padding-left: 4px;
+	padding-right: 0;
+}
+.rtl .iconize-modal ul.tagit li.tagit-choice .tagit-close {
+	right: auto;
+	left: .4em;
+}
+.rtl .iconize-modal .wpbs-modal-footer {
+	text-align: right;
+}
+
+/* Modal size and position on small screens */
+@media screen and (min-width: 768px) {
+	.iconize-modal .wpbs-modal-dialog {
+		width: 577px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.iconize-modal .wpbs-modal-dialog {
+		width: 835px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+}
